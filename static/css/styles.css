@@ -10,6 +10,7 @@ body{
 
 }
 .row{
+    position: relative;
     height: 70vh;
     display: flex;
     width: 65%;
@@ -47,11 +48,12 @@ h1{
 .a, .b, .c{
     display: grid;
     justify-content: center;
-    padding: 30px;
+    padding: 35px;
 }
 p{
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
+    margin-top: -1.4em;
 
 }
 .btn1{
